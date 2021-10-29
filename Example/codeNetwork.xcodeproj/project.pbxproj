@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1192CFF3079614353F9716E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1192CFF3079614353F9716E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A7DBBEE04967043565947BC /* Pods-codeNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-codeNetwork_Example/Pods-codeNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5802B8CAFF93AE02BD8A8028 /* codeNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = codeNetwork.podspec; path = ../codeNetwork.podspec; sourceTree = "<group>"; };
+		5802B8CAFF93AE02BD8A8028 /* codeNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = codeNetwork.podspec; path = ../codeNetwork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E4861D5D47AED27F70F54F6 /* Pods-codeNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-codeNetwork_Tests/Pods-codeNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* codeNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		608B75C117C3F27B1EC8ADCF /* Pods_codeNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCDA46C55EE7B8F8CE92AB65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BCDA46C55EE7B8F8CE92AB65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DFBD7C6228F61850CEFB79E9 /* Pods-codeNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-codeNetwork_Example/Pods-codeNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F32B9A1FAFAC8F6894D16A50 /* Pods-codeNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-codeNetwork_Tests/Pods-codeNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB6EAD35E1A9FFD8A40F088C /* Pods_codeNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				5E4861D5D47AED27F70F54F6 /* Pods-codeNetwork_Tests.debug.xcconfig */,
 				F32B9A1FAFAC8F6894D16A50 /* Pods-codeNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

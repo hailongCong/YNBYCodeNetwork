@@ -1,0 +1,16 @@
+PODS:
+  - codeNetwork (0.1.0)
+
+DEPENDENCIES:
+  - codeNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  codeNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  codeNetwork: 4b73b6f015574d8a292b4fba93fb99f55173fcba
+
+PODFILE CHECKSUM: 340386c98fe68ef0cbe308ac7b77128f3fea8077
+
+COCOAPODS: 1.10.1

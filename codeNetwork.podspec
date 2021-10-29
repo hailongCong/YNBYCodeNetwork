@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'codeNetwork'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of codeNetwork.'
+  s.summary          = '这是一个网络组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hailong/codeNetwork'
+  s.homepage         = 'https://github.com/hailongCong/YNBYCodeNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hailong' => '936861746@qq.com' }
-  s.source           = { :git => 'https://github.com/hailong/codeNetwork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:hailongCong/YNBYCodeNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'codeNetwork/Classes/**/*'
-  
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'codeNetwork' => ['codeNetwork/Assets/*.png']
   # }
